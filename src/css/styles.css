@@ -1,0 +1,101 @@
+body{
+    background-color: var(--neutral-soft);
+    font-family: 'Outfit', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.nome-empresa{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    color: #000000;
+}
+
+.componente-cracha{
+    margin-top: 20px;
+    background-color:var(--primary-medium);
+    max-width: 370px;
+    height: 490px;
+    border-radius: 15px;
+    padding: 11px;
+    border-style:outset;
+    border-width: 4px;
+    border-color: hsl(276, 100%, 50%);
+    z-index: 1;
+}
+
+.componente-cracha .imagem-cracha img{
+    position: center;
+    margin-top: 7px;
+    margin-left: 30px;
+    display: flex;
+    max-width: 160px;
+    border-radius: 10px;
+}
+
+.informacoes-colaboradora h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: #000000;
+}
+
+.informacoes-colaboradora  p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--neutral-darksoft);
+    text-align: center;
+}
+
+.apresentacao-pessoal{
+    border-top: 2px solid var(--neutral-soft); 
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.apresentacao-pessoal  p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--neutral-medium);
+    text-align: center;
+ 
+}
+
+.localizacao{
+    border-top: 2px solid var(--neutral-soft); 
+    font-size: 15px;
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.localizacao .sede{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.localizacao .local{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#video-institucional{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
